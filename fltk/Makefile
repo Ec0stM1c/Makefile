@@ -4,6 +4,7 @@ SOURCES_OBJ_C:= $(wildcard ./source/*.c) $(wildcard ./include/*.c)
 SOURCES:=$(SOURCES_OBJ_CPP) $(SOURCES_OBJ_C)
 # Автоматически подгружаются  ./include/*.h
 INCLUDE:= -I./include/
+# Название файла программы
 EXE=writeanovell
 # Автоматически выделяются .o
 OBJECTS=$(SOURCES_OBJ_CPP:.cpp=.o) $(SOURCES_OBJ_C:.c=.o)
