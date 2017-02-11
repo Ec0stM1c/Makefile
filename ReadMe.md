@@ -3,8 +3,12 @@
 FLTK -- C++ и SQLite
 --------------------
 Структура каталогов:
+
 EXE
+
 Makefile
+
 |--include
+
 |--source
 
